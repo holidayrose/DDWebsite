@@ -21,7 +21,7 @@ function rnd(n,m){
                 oSliderBox.appendChild(oSpan);
                 oSpan.style.left = oSpan.offsetWidth*i+'px';
                 oSpan.style.top = oSpan.offsetHeight*j+'px';
-                oSpan.style.backgroundImage='url(../img/banner'+(iNow%4+1)+'.png)';
+                oSpan.style.backgroundImage='url(img/banner'+(iNow%4+1)+'.png)';
                 oSpan.style.backgroundPosition = '-'+oSpan.offsetWidth*i+'px -'+oSpan.offsetHeight*j+'px';
             }
         };
@@ -42,8 +42,8 @@ function rnd(n,m){
                 aS[aS.length-1].removeEventListener('transitionend',TranEnd,false);
                 for(var i=0;i<aS.length;i++){
                     aS[i].style.webkitTransition = 'none';
-                    aS[i].style.backgroundImage = 'url(../img/banner'+(iNow%4+1)+'.png)';
-                    oSliderBox.style.backgroundImage = 'url(../img/banner'+((iNow+1)%4+1)+'.png)';
+                    aS[i].style.backgroundImage = 'url(img/banner'+(iNow%4+1)+'.png)';
+                    oSliderBox.style.backgroundImage = 'url(img/banner'+((iNow+1)%4+1)+'.png)';
                     aS[i].style.webkitTransform = 'perspective(800px) translate(0,0) rotateX(0deg) rotateY(0deg)';
                     aS[i].style.opacity = 1;
                     lock = false;
