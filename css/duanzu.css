@@ -1,0 +1,261 @@
+.main{
+    width:100%;
+    height:781px;
+    background:url("../img/index2-bg2.jpg");
+}
+.header{
+    width:100%;
+    height:150px;
+    padding:30px 0;
+}
+.header_nav{
+    width:960px;
+    height:100%;
+    margin:auto;
+}
+.logo{
+    width:154px;
+    height:100%;
+    background:url("../img/logo.png") no-repeat -15px -20px;
+    float: left;
+}
+.life{height:70px;padding-left:30px;}
+.life span{
+    color:#0099cc;
+    font-size:30px;
+    font-weight:bold;
+    letter-spacing: .7em;
+    line-height:70px;
+}
+.life a{
+    height:30px;
+    color: #09c;
+    font-size:18px;
+    padding-top:28px;
+    margin-left:18px;
+}
+.life .logout,.life .user{display:none;}
+.life .login_box{
+    width:218px;
+    height:156px;
+    background:#fff;
+    box-shadow:1px 0 5px rgba(0,0,0,.15);
+    padding:24px;
+    border:1px solid #e8e8e8;
+    z-index:3;
+    position: absolute;
+    right:230px;
+    top:92px;
+    border-radius: 2px;
+    display: none;
+}
+.life .login_inp{margin-bottom:15px;}
+.life .login_inp input{
+    padding-left:10px;
+    width:203px;
+    height:34px;
+    font-size:14px;
+}
+.life .sub_btn{
+    display: block;
+    width:100%;
+    background:#3bc2c2;
+    color:#fff;
+    vertical-align: middle;
+    border-radius: 2px;
+    font-size:14px;
+    padding:8px;
+    line-height:20px;
+    cursor: pointer;
+    border: none;
+    margin-bottom:5px;
+}
+.life .login_box a{
+    margin-left:0;
+    font-size:14px;
+}
+.nav{
+    width:736px;
+    height:80px;
+    position: relative;
+    z-index:2;
+}
+.nav .hover{
+    width:98px;
+    height:78px;
+    position: absolute;
+    left:30px;top:-2px;
+    background:url("../img/navA_hover.png") no-repeat;
+}
+.nav ul{
+    position: relative;
+    width:100%;
+    height:78px;
+    margin-left:30px;
+}
+.nav ul li{
+    width:100px;
+    height:78px;
+    float:left;
+}
+.nav ul li a{
+    display: block;
+    height:78px;
+    line-height:68px;
+    text-align: center;
+    color:#fff;
+    font-size:16px;
+    z-index:31;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000;
+}
+.nav ul li a.last{
+    border-right:none;
+}
+.nav ul li a:hover{
+    color:#63b1ff;
+}
+.content{
+    width:960px;
+    margin:0 auto;
+    border:1px solid #9cf;
+    border-radius: 2px;
+}
+.content .statement{
+    width:100%;
+    text-align: center;
+    font-size:14px;
+    color:#000;
+    background: #dff0d8;
+    line-height:40px;
+}
+.content .car_infor{
+    width:100%;
+    height:430px;
+    overflow-y: scroll;
+    background:#9cf;
+}
+.content .item{
+    width:471px;
+    height:300px;
+    border:1px solid #9cf;
+    float: left;
+    background:#fff;
+    box-sizing: border-box;
+}
+.content .item:hover{
+    background: #f0f0f0;
+}
+.content .item .box-l{
+    width:310px;
+    height:250px;
+    padding-top:50px;
+    float: left;
+}
+.content .item .box-l img{
+    width:250px;
+    height:200px;
+    margin:0 auto;
+}
+.content .item .box-r{
+    width:159px;
+    height:300px;
+    float: left;
+    position: relative;
+}
+.content .car_name{
+    position: absolute;
+    left:10px;
+    top:50px;
+    font-size:20px;
+    font-weight:bold;
+}
+.content .car_num{
+    position: absolute;
+    left:60px;
+    top:56px;
+    font-size:12px;
+    color:#666;
+}
+.content .car_candle{
+     position: absolute;
+     left:10px;
+     top:76px;
+     font-size:12px;
+     padding:2px;
+     border:1px solid #666;
+     border-radius: 5px;
+     color:#666;
+ }
+.content .car_transition{
+    position: absolute;
+    left:10px;
+    top:106px;
+    font-size:12px;
+    padding:2px;
+    border:1px solid #666;
+    border-radius: 5px;
+    color:#666;
+}
+.content .price{
+    font-size:20px;
+    color:#FE6E10;
+    position: absolute;
+    left:10px;
+    bottom:110px;
+}
+.content .box-r a{
+    position: absolute;
+    left:10px;
+    bottom:50px;
+    width:100px;
+    height:50px;
+    font-size:22px;
+    background:#FE6E10;
+    color:#fff;
+    text-align: center;
+    line-height:50px;
+    border-radius: 5px;
+}
+.content .btn{
+    width:100%;
+    height:98px;
+    background:#fff;
+    position: relative;
+}
+.content .btn a{
+    position: absolute;
+    width:300px;
+    height:50px;
+    font-size:24px;
+    background:#fe6e10;
+    text-align: center;
+    color:#fff;
+    border-radius: 5px;
+    line-height:50px;
+    left:50%;
+    margin-left:-150px;
+    top:50%;
+    margin-top:-25px;
+}
+.detail{
+    width:100%;
+    height:200px;
+    background:#03030d;
+}
+.container{
+    width:960px;
+    margin:0 auto;
+    padding-top:30px;
+}
+.container h2{
+    font-size:24px;
+    color:#fff;
+    text-align: center;
+}
+.container ol li{
+    color:#fff;
+    font-size:16px;
+    line-height:20px;
+    list-style: disc;
+}

@@ -1,0 +1,355 @@
+.main{
+    width:100%;
+    background:#03030d;
+}
+.header{
+    width:100%;
+    height:150px;
+    padding:30px 0;
+}
+.header_nav{
+    width:960px;
+    height:100%;
+    margin:auto;
+}
+.logo{
+    width:154px;
+    height:100%;
+    background:url("../img/logo.png") no-repeat -15px -20px;
+    float: left;
+}
+.life{height:70px;padding-left:30px;}
+.life span{
+    color:#0099cc;
+    font-size:30px;
+    font-weight:bold;
+    letter-spacing: .7em;
+    line-height:70px;
+}
+.life a{
+    height:30px;
+    color: #09c;
+    font-size:18px;
+    padding-top:28px;
+    margin-left:18px;
+}
+.life .logout,.life .user{display:none;}
+.life .login_box{
+    width:218px;
+    height:156px;
+    background:#fff;
+    box-shadow:1px 0 5px rgba(0,0,0,.15);
+    padding:24px;
+    border:1px solid #e8e8e8;
+    z-index:3;
+    position: absolute;
+    right:230px;
+    top:92px;
+    border-radius: 2px;
+    display: none;
+}
+.life .login_inp{margin-bottom:15px;}
+.life .login_inp input{
+    padding-left:10px;
+    width:203px;
+    height:34px;
+    font-size:14px;
+}
+.life .sub_btn{
+    display: block;
+    width:100%;
+    background:#3bc2c2;
+    color:#fff;
+    vertical-align: middle;
+    border-radius: 2px;
+    font-size:14px;
+    padding:8px;
+    line-height:20px;
+    cursor: pointer;
+    border: none;
+    margin-bottom:5px;
+}
+.life .login_box a{
+    margin-left:0;
+    font-size:14px;
+}
+.nav{
+    width:736px;
+    height:80px;
+    position: relative;
+    z-index:2;
+}
+.nav .hover{
+    width:98px;
+    height:78px;
+    position: absolute;
+    left:30px;top:-2px;
+    background:url("../img/navA_hover.png") no-repeat;
+}
+.nav ul{
+    position: relative;
+    width:100%;
+    height:78px;
+    margin-left:30px;
+}
+.nav ul li{
+    width:100px;
+    height:78px;
+    float:left;
+}
+.nav ul li a{
+    display: block;
+    height:78px;
+    line-height:68px;
+    text-align: center;
+    color:#fff;
+    font-size:16px;
+    z-index:31;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000;
+}
+.nav ul li a.last{
+    border-right:none;
+}
+.nav ul li a:hover{
+    color:#63b1ff;
+}
+.content{
+    width:960px;
+    height:630px;
+    background:#fff;
+    margin:0 auto;
+    border-radius: 10px;
+    border:1px solid #0099cc;
+}
+.news,.common_pro,.about_us{
+    width:100%;
+    height:580px;
+    padding-top:20px;
+}
+.news .company{
+    width:100%;
+    height:260px;
+    margin:15px 0;
+}
+.company .box{
+    width:470px;
+    height:100%;
+}
+.company .box h2,.fun h2,.fun .share{
+    font-size:20px;
+    padding-left:20px;
+    line-height:50px;
+}
+.fun .share{
+    margin-right: 20px;
+    color:#099;
+    text-decoration: underline;
+}
+.sub_box img{
+    width:200px;
+    height:180px;
+    float: left;
+    margin-left:20px;
+    border-radius: 50px;
+}
+.sub_box ul{
+    float: left;
+    margin-left:20px;
+}
+.sub_box ul li{
+    width:207px;
+    height:40px;
+    border-bottom:1px dashed #000;
+    line-height:40px;
+}
+.sub_box ul li a{font-size:18px;color:#666;}
+.sub_box ul li a:hover{color:#9cf;}
+.news .fun{
+    width:100%;
+    height:260px;
+    border-top:1px solid green;
+    position: relative;
+}
+.fun .title{
+    height:50px;
+}
+.fun .pic{
+    width:235px;
+    height:210px;
+    margin-left:20px;
+}
+.fun .fun_dis{
+    height:240px;
+    width:600px;
+    margin-left:50px;
+    overflow: hidden;
+    position: relative;
+}
+.fun ul{position: absolute;}
+.fun ul li{
+    width:600px;
+    height:56px;
+    border-bottom:1px dashed #666;
+}
+.fun ul li img{
+    width:50px;
+    height:50px;
+    float: right;
+}
+.fun ul li a{
+    float: left;
+    line-height: 56px;
+    font-size:16px;
+}
+.fun ul li a:hover{
+    color:#99ccff;
+}
+.fun .cover{
+    width:100%;
+    height:320px;
+    background:#000;
+    opacity:0.5;
+    filter: alpha(opacity:50);
+    position: absolute;
+    left:0;
+    top:0;
+    z-index:10;
+    display:none;
+}
+.fun .form{
+    position: absolute;
+    width:310px;
+    height:320px;
+    left:50%;
+    margin-left:-155px;
+    top:0;
+    z-index:11;
+    background:#fff;
+    display:none;
+}
+.fun .form h3{
+    font-size:16px;
+    text-align: center;
+    margin:50px 0 10px 0;
+}
+.fun .form textarea{
+    margin-left:60px;
+    resize: none;
+}
+.fun .form span{
+    margin-left:60px;
+    color:#f00;
+}
+.fun .form .file{
+    margin-left:60px;
+}
+.fun .form .submit{
+    width:240px;
+    height:36px;
+    color:#fff;
+    background:#f33;
+    line-height:36px;
+    font-size:20px;
+    margin:10px 0 0 35px;
+}
+.fun .form .close{
+    position: absolute;
+    width:40px;
+    height:46px;
+    right:0;
+    top:0;
+    font-size:40px;
+    color:#666;
+    cursor: pointer;
+}
+.footer{
+    width:100%;
+    height:330px;
+    background:#03030d;
+    margin:auto;
+}
+.footer h2{
+    width:860px;
+    margin:0 auto;
+    color:#6985A5;
+    font-size:18px;
+    text-align: center;
+    padding:40px 0 20px;
+}
+.footer ul{
+    width:900px;
+    margin:0 auto;
+    padding:0 0 30px 60px;
+}
+.footer ul li{
+    width:160px;
+    float: left;
+    margin:5px;
+}
+.footer ul li a{
+    font-size:16px;
+    color:#6985A5;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+.footer .beian{
+    width:900px;
+    margin:0 auto;
+    padding-left:60px;
+}
+.footer p{
+    font-size:13px;
+    color:#6985A5;
+    line-height:20px;
+}
+.common_pro .sub_con{
+    padding:0 30px;
+    margin-bottom:20px;
+}
+.common_pro h2{
+    font-size:20px;
+    color:#666;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+.common_pro p{
+    font-size:16px;
+    text-indent: 2em;
+}
+.about_us .part{
+    width:100%;
+    margin-bottom:10px;
+}
+.about_us .sub_part{
+    width:450px;
+    height:100%;
+}
+.about_us h2{
+    font-size:20px;
+    color:#666;
+    font-weight:bold;
+    margin-bottom:10px;
+    padding-left:20px;
+}
+.about_us p{
+    font-size:14px;
+    text-indent: 2em;
+    padding:0 20px;
+}
+.part ul{
+    padding-left:60px;
+}
+.part ul li{
+    float: left;
+    width:300px;
+}
+.part ul li img{
+    width:220px;
+    height:168px;
+}
+.part ul li p{
+    width:220px;
+    text-indent: 0;
+}
