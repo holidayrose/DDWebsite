@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/addCar.css">
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header_nav clearfix">
+                <h1 class="logo"></h1>
+                <div class="fl">
+                    <div class="life">
+                        <span class="fl">开身边好车，享幸福生活</span>
+                        <a href="javascript:;" class="login fr" id="login">登录</a>
+                        <a href="register.html" class=" submit fr">免费注册</a>
+                        <a href="javascript:;" class="logout fr">注销</a>
+                        <a href="javascript:;" class="user fr">欢迎您</a>
+                        <div class="login_box" id="login_box">
+                            <div class="login_inp"><input type="text" placeholder="您的登录手机号码"></div>
+                            <div class="login_inp"><input type="text" placeholder="您的密码"></div>
+                            <input type="submit" value="登 录" class="sub_btn">
+                            <div><a href="javascript:;">忘记密码?</a></div>
+                        </div>
+                    </div>
+                    <div class="nav" id="nav">
+                        <div class="hover"></div>
+                        <ul>
+                            <li><a href="index.html">首页</a></li>
+                            <li><a href="duanzu.html">短租自驾</a></li>
+                            <li><a href="changzu.html">长租</a></li>
+                            <li><a href="addCar.html" class="flag">私家车出租</a></li>
+                            <li><a href="news.html">新闻资讯</a></li>
+                            <li><a href="problem.html">常见问题</a></li>
+                            <li><a href="aboutus.html">关于我们</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <h2>爱车基本信息</h2>
+            <div class="infor">
+                <p>请如实填写您爱车的信息，拓展诚信、透明、友好的社交圈，人人共建、人人共享</p>
+                <ul>
+                    <li>
+                        <span>真实姓名:</span>
+                        <input type="text" class="text">
+                    </li>
+                    <li>
+                        <span>身份证号:</span>
+                        <input type="text" class="text" maxlength="18">
+                    </li>
+                    <li>
+                        <span>车牌号码:</span>
+                        <select>
+                            <option value="京">京</option>
+                            <option value="沪">沪</option>
+                            <option value="粤">粤</option>
+                            <option value="津">津</option>
+                            <option value="渝">渝</option>
+                            <option value="冀">冀</option>
+                            <option value="晋">晋</option>
+                            <option value="蒙">蒙</option>
+                            <option value="辽">辽</option>
+                            <option value="吉">吉</option>
+                            <option value="黑">黑</option>
+                            <option value="苏">苏</option>
+                            <option value="浙">浙</option>
+                            <option value="皖">皖</option>
+                            <option value="闽">闽</option>
+                            <option value="赣">赣</option>
+                            <option value="鲁">鲁</option>
+                            <option value="豫">豫</option>
+                            <option value="鄂">鄂</option>
+                            <option value="湘">湘</option>
+                            <option value="桂">桂</option>
+                            <option value="琼">琼</option>
+                            <option value="川">川</option>
+                            <option value="贵">贵</option>
+                            <option value="云">云</option>
+                            <option value="藏">藏</option>
+                            <option value="陕">陕</option>
+                            <option value="甘">甘</option>
+                            <option value="青">青</option>
+                            <option value="宁">宁</option>
+                            <option value="新">新</option>
+                        </select>
+                        <select>
+                            <option value="A">A</option>
+                            <option value="B">B</option>
+                            <option value="C">C</option>
+                            <option value="D">D</option>
+                            <option value="E">E</option>
+                            <option value="F">F</option>
+                            <option value="G">G</option>
+                            <option value="H">H</option>
+                            <option value="I">I</option>
+                            <option value="J">J</option>
+                            <option value="K">K</option>
+                            <option value="L">L</option>
+                            <option value="M">M</option>
+                            <option value="N">N</option>
+                            <option value="O">O</option>
+                            <option value="P">P</option>
+                            <option value="Q">Q</option>
+                            <option value="R">R</option>
+                            <option value="S">S</option>
+                            <option value="T">T</option>
+                            <option value="U">U</option>
+                            <option value="V">V</option>
+                            <option value="W">W</option>
+                            <option value="X">X</option>
+                            <option value="Y">Y</option>
+                            <option value="Z">Z</option>
+                        </select>
+                        <input type="text" class="text2">
+                    </li>
+                    <li>
+                        <span>车牌品牌:</span>
+                        <select>
+                            <optgroup label="A">
+                                <option value="奥迪">奥迪</option>
+                                <option value="阿斯顿·马丁">阿斯顿·马丁</option>
+                                <option value="奥克斯">奥克斯</option>
+                            </optgroup>
+                            <optgroup label="B">
+                                <option value="奔腾">奔腾</option>
+                                <option value="宝马">宝马</option>
+                                <option value="别克">别克</option>
+                                <option value="保时捷">保时捷</option>
+                                <option value="本田">本田</option>
+                                <option value="标致">标致</option>
+                                <option value="奔驰">奔驰</option>
+                                <option value="比亚迪">比亚迪</option>
+                                <option value="北汽制造">北汽制造</option>
+                                <option value="宝骏">宝骏</option>
+                                <option value="宾利">宾利</option>
+                                <option value="北汽幻速">北汽幻速</option>
+                                <option value="北汽威旺">北汽威旺</option>
+                                <option value="北京">北京</option>
+                                <option value="北汽新能源">北汽新能源</option>
+                                <option value="北汽绅宝">北汽绅宝</option>
+                            </optgroup>
+                            <optgroup label="C">
+                                <option value="长城">长城</option>
+                                <option value="昌河">昌河</option>
+                                <option value="长安">长安</option>
+                                <option value="长安商用">长安商用</option>
+                                <option value="长丰扬子">长丰扬子</option>
+                            </optgroup>
+                            <optgroup label="D">
+                                <option value="大众">大众</option>
+                                <option value="道奇">道奇</option>
+                                <option value="东风">东风</option>
+                                <option value="东南">东南</option>
+                                <option value="东风风神">东风风神</option>
+                                <option value="东风风行">东风风行</option>
+                                <option value="DS">DS</option>
+                                <option value="大发">大发</option>
+                                <option value="东风小康">东风小康</option>
+                                <option value="东风风度">东风风度</option>
+                                <option value="大迪">大迪</option>
+                            </optgroup>
+                            <optgroup label="F">
+                                <option value="丰田">丰田</option>
+                                <option value="福特">福特</option>
+                                <option value="福田">福田</option>
+                                <option value="福迪">福迪</option>
+                                <option value="菲亚特">菲亚特</option>
+                                <option value="法拉利">法拉利</option>
+                                <option value="福汽新龙马">福汽新龙马</option>
+                            </optgroup>
+                            <optgroup label="G">
+                                <option value="广汽吉奥">广汽吉奥</option>
+                                <option value="广汽传祺">广汽传祺</option>
+                                <option value="观致">观致</option>
+                            </optgroup>
+                            <optgroup label="H">
+                                <option value="悍马">悍马</option>
+                                <option value="红旗">红旗</option>
+                                <option value="哈弗">哈弗</option>
+                                <option value="海马">海马</option>
+                                <option value="黄海">黄海</option>
+                                <option value="哈飞">哈飞</option>
+                                <option value="华普">华普</option>
+                                <option value="华泰">华泰</option>
+                                <option value="华颂">华颂</option>
+                                <option value="华翔富奇">华翔富奇</option>
+                            </optgroup>
+                            <optgroup label="J">
+                                <option value="Jeep">Jeep</option>
+                                <option value="吉利">吉利</option>
+                                <option value="江淮">江淮</option>
+                                <option value="捷豹">捷豹</option>
+                                <option value="金杯">金杯</option>
+                                <option value="江铃">江铃</option>
+                                <option value="江南">江南</option>
+                                <option value="金旅">金旅</option>
+                            </optgroup>
+                            <optgroup label="K">
+                                <option value="凯迪拉克">凯迪拉克</option>
+                                <option value="克莱斯勒">克莱斯勒</option>
+                                <option value="开瑞">开瑞</option>
+                                <option value="凯翼">凯翼</option>
+                            </optgroup>
+                            <optgroup label="L">
+                                <option value="路虎">路虎</option>
+                                <option value="莲花">莲花</option>
+                                <option value="力帆">力帆</option>
+                                <option value="雷克萨斯">雷克萨斯</option>
+                                <option value="陆风">陆风</option>
+                                <option value="林肯">林肯</option>
+                                <option value="劳斯莱斯">劳斯莱斯</option>
+                                <option value="铃木">铃木</option>
+                                <option value="雷诺">雷诺</option>
+                                <option value="猎豹（长丰）">猎豹（长丰）</option>
+                                <option value="兰博基尼">兰博基尼</option>
+                            </optgroup>
+                            <optgroup label="M">
+                                <option value="马自达">马自达</option>
+                                <option value="玛莎拉蒂">玛莎拉蒂</option>
+                                <option value="MINI">MINI</option>
+                                <option value="MG">MG</option>
+                            </optgroup>
+                            <optgroup label="N">
+                                <option value="纳智捷">纳智捷</option>
+                                <option value="南汽">南汽</option>
+                            </optgroup>
+                            <optgroup label="O">
+                                <option value="讴歌">讴歌</option>
+                                <option value="欧宝">欧宝</option>
+                                <option value="欧朗">欧朗</option>
+                            </optgroup>
+                            <optgroup label="Q">
+                                <option value="奇瑞">奇瑞</option>
+                                <option value="起亚">起亚</option>
+                                <option value="启辰">启辰</option>
+                                <option value="全球鹰">全球鹰</option>
+                            </optgroup>
+                            <optgroup label="R">
+                                <option value="日产">日产</option>
+                                <option value="荣威">荣威</option>
+                                <option value="瑞麒">瑞麒</option>
+                            </optgroup>
+                            <optgroup label="S">
+                                <option value="三菱">三菱</option>
+                                <option value="斯柯达">斯柯达</option>
+                                <option value="斯巴鲁">斯巴鲁</option>
+                                <option value="双龙">双龙</option>
+                                <option value="双环">双环</option>
+                                <option value="Smart">Smart</option>
+                                <option value="萨博">萨博</option>
+                                <option value="上汽大通">上汽大通</option>
+                            </optgroup>
+                            <optgroup label="T">
+                                <option value="通家福">通家福</option>
+                                <option value="天汽美亚">天汽美亚</option>
+                                <option value="特斯拉">特斯拉</option>
+                            </optgroup>
+                            <optgroup label="W">
+                                <option value="沃尔沃">沃尔沃</option>
+                                <option value="五菱">五菱</option>
+                                <option value="威麟">威麟</option>
+                                <option value="潍柴英致">潍柴英致</option>
+                                <option value="五十铃">五十铃</option>
+                            </optgroup>
+                            <optgroup label="X">
+                                <option value="雪佛兰">雪佛兰</option>
+                                <option value="雪铁龙">雪铁龙</option>
+                                <option value="现代">现代</option>
+                                <option value="新凯">新凯</option>
+                                <option value="西雅特">西雅特</option>
+                            </optgroup>
+                            <optgroup label="Y">
+                                <option value="英菲尼迪">英菲尼迪</option>
+                                <option value="依维柯">依维柯</option>
+                                <option value="一汽">一汽</option>
+                                <option value="永源">永源</option>
+                                <option value="野马">野马</option>
+                            </optgroup>
+                            <optgroup label="Z">
+                                <option value="众泰">众泰</option>
+                                <option value="中华">中华</option>
+                                <option value="中兴">中兴</option>
+                                <option value="中顺">中顺</option>
+                                <option value="知豆">知豆</option>
+                            </optgroup>
+                        </select>
+                    </li>
+                    <li>
+                        <span>购车时间:</span>
+                        <select>
+                            <option value="2017" checked>2017</option>
+                            <option value="2016">2016</option>
+                            <option value="2015">2015</option>
+                            <option value="2014">2014</option>
+                            <option value="2013">2013</option>
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                        </select>
+                        <i>年</i>
+                    </li>
+                    <li>
+                        <span>变速器:</span>
+                        <select>
+                            <option value="手动">手动</option>
+                            <option value="自动">自动</option>
+                        </select>
+                    </li>
+                    <li>
+                        <span>排量:</span>
+                        <select>
+                            <option value="1.5L及以下" selected="selected">1.5L及以下</option>
+                            <option value="1.6L-2.0L或1.6L及以下">1.6L-2.0L或1.6L及以下</option>
+                            <option value="2.1L-2.5L或1.7L-2.0L">2.1L-2.5L或1.7L-2.0L</option>
+                            <option value="2.6L或2.1L及以上">2.6L或2.1L及以上</option>
+                        </select>
+                    </li>
+                    <li>
+                        <span>颜色:</span>
+                        <select>
+                            <option value="黑色" selected="selected">黑色</option>
+                            <option value="白色">白色</option>
+                            <option value="银灰色">银灰色</option>
+                            <option value="咖色">咖色</option>
+                            <option value="红色">红色</option>
+                            <option value="其他">其他</option>
+                        </select>
+                        <span>座位:</span>
+                        <select>
+                            <option value="2人">2人</option>
+                            <option value="4人" selected="selected">4人</option>
+                            <option value="5人">5人</option>
+                            <option value="7人及以上">7人及以上</option>
+                        </select>
+                    </li>
+                    <li>
+                        <span>配置:</span>
+                        <input type="checkbox" name="" id="c1">
+                        <label for="c1">导航仪</label>
+                        <input type="checkbox" name="" id="c2">
+                        <label for="c2">外接MP3</label>
+                    </li>
+                    <li>
+                        <span>租期:</span>
+                        <select>
+                            <option>长租</option>
+                            <option>短租</option>
+                            <option>不限</option>
+                        </select>
+                        <i>价格(日均/月均):</i>
+                        <input type="text" class="text2">
+                    </li>
+                    <li>
+                        <span>取车地点:</span><i>北京</i>
+                        <select>
+                            <option>东城区</option>
+                            <option>西城区</option>
+                            <option>朝阳区</option>
+                            <option>海淀区</option>
+                            <option>丰台区</option>
+                            <option>石景山区</option>
+                            <option>房山区</option>
+                            <option>通州区</option>
+                            <option>顺义区</option>
+                            <option>大兴区</option>
+                            <option>昌平区</option>
+                            <option>平谷区</option>
+                            <option>怀柔区</option>
+                            <option>门头沟区</option>
+                            <option>密云县</option>
+                            <option>延庆县</option>
+                        </select>
+                    </li>
+                    <li>
+                        <p style="text-align: left;">上传一张爱车正面照片，清楚了解车辆外型，方便出租</p>
+                        <input type="file" name="" id="">
+                    </li>
+                </ul>
+            </div>
+            <div class="sub_box">
+                <input type="button" value="提交" class="submit">
+            </div>
+        </div>
+    </div>
+    <script src="../js/common.js"></script>
+</body>
+</html>
